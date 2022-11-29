@@ -31,8 +31,8 @@ Users should be able to:
 
 ### Links
 
-- Solution URL: [Add solution URL here](https://github.com/prod-prev-card-comp.git)
-- Live Site URL: [Add live site URL here](https://purrrplelipton.github.io/prod-prev-card-comp/)
+- Solution URL: [My solution on frontendmentor](https://www.frontendmentor.io/solutions/reusable-product-preview-card-component-using-css-grid-SdqtPBFQPy)
+- Live Site URL: [Live site on GitHub Pages](https://purrrplelipton.github.io/prod-prev-card-comp/)
 
 ## My process
 
@@ -48,7 +48,8 @@ Users should be able to:
 
 I learnt how powerful the picture tag in HTML can be and was introduced to the :is pseudo class in CSS, see below:
 
-````html
+```html
+<!-- the product image section -->
 <picture class="prod_img">
   <source
     srcset="/images/image-product-desktop.jpg"
@@ -57,8 +58,9 @@ I learnt how powerful the picture tag in HTML can be and was introduced to the :
   <img
     src="/images/image-product-mobile.jpg"
     alt="chanel gabrielle perfume laying on a white surface with green leaves at the top left and bottom right of it"
-  /> </picture
->``` ```html
+  />
+</picture>
+<!-- the promo price & original price section -->
 <div class="flex-group">
   <p class="prod_prc">
     <span class="sr-only">Current Price:</span>
@@ -69,7 +71,7 @@ I learnt how powerful the picture tag in HTML can be and was introduced to the :
     <s>$169.99</s>
   </p>
 </div>
-````
+```
 
 ```css
 .sr-only:not(:focus):not(:active) {
@@ -82,8 +84,6 @@ I learnt how powerful the picture tag in HTML can be and was introduced to the :
   width: 1px;
 }
 ```
-
-If you want more help with writing markdown, we'd recommend checking out [The Markdown Guide](https://www.markdownguide.org/) to learn more.
 
 ### Continued development
 

@@ -168,10 +168,18 @@
         width: 15px;
         height: 16px;
         background-image: url(./images/icon-cart.svg);
-      } /*
-      .attribution {font-size: 11px;text-align: center;}
-      .attribution a {color: hsl(228, 45%, 44%);}
-      */
+      }
+      .attribution {
+        font-size: 11px;
+        text-align: center;
+        position: fixed;
+        right: 0;
+        bottom: 0;
+        transform: rotate(-90deg) translate(8rem, 7rem);
+      }
+      .attribution a {
+        color: hsl(228, 45%, 44%);
+      }
     </style>
   </head>
   <body>
@@ -211,9 +219,7 @@
         </div>
       </article>
     </main>
-
-    <!-- 
-    <div class="attribution">
+    <footer class="attribution">
       Challenge by
       <a href="https://www.frontendmentor.io?ref=challenge" target="_blank">
         Frontend Mentor
@@ -221,7 +227,6 @@
       . Coded by
       <a href="https://www.frontendmentor.io/profile/purrrplelipton"> Toby </a>
       .
-    </div>
-    -->
+    </footer>
   </body>
 </html>
